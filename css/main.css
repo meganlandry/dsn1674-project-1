@@ -26,9 +26,28 @@ h3 {
 }
 
 header {
-	background-color: #yellow;
+	background-color: #ffe524;
 }
 
-hr {
-	background-color: yellow;
+nav {
+	background-color: #ffe524;
+	margin: 2;
 }
+
+nav ul {
+	list-style-type: none;
+	padding: 0.5;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 1em 1em;
+	background-color: #703838;
+	text-decoration: none;
+	color: white;
+	border-radius: 0.5em 
