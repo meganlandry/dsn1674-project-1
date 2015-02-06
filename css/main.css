@@ -7,8 +7,24 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	color: #b32f52;
+	font-family: 'Bevan', normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 1;
+	text-align: center;
+}
+
+h3 {
+	color: #b32f52;
+	font-family: 'Bevan', normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 1;
+	text-align: center;
 }
 
 header {
-	background-color: #79756f;
+	background-color: #yellow;
 }
