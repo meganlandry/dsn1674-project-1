@@ -17,6 +17,7 @@ h2 {
 	font-weight: normal;
 	font-size: 2rem;
 	text-align: left;
+	border-top: 3px solid #ffe524;
 }
 
 h3 {
@@ -79,5 +80,25 @@ blockquote {
 blockquote cite {
 	text-align: center;
 	display: block;
+}
+
+footer {
+	background-color: #ffe524;
+	text-align: center;
+	padding: 1.5em;
+}
+
+figure {
+	background-color: #fffce0;
+	text-align: center;
+	border: 1px solid #b2a215;
+	font-style: italic;
+	line-height: 1.5em;
+	padding: .75em;
+	font-size: .75em;
+}
+
+img {
+	width: 100%;
 }
 
