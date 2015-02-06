@@ -7,13 +7,16 @@ h1 {
 	text-align: center;
 }
 
+header h1 {
+margin: 0;
+}
+
 h2 {
 	color: #b32f52;
 	font-family: 'Sigmar One', cursive;
 	font-weight: normal;
 	font-size: 2rem;
-	line-height: 1;
-	text-align: center;
+	text-align: left;
 }
 
 h3 {
@@ -22,16 +25,17 @@ h3 {
 	font-weight: normal;
 	font-size: 1.5rem;
 	line-height: 1;
-	text-align: center;
+	text-align: left;
 }
 
 header {
 	background-color: #ffe524;
+	text-align: center;
 }
 
 nav {
 	background-color: #ffe524;
-	margin: 2;
+	padding: 0.5em;
 }
 
 nav ul {
@@ -46,8 +50,27 @@ nav li {
 
 nav a {
 	display: inline-block;
-	padding: 1em 1em;
-	background-color: #703838;
+	padding: 0.5em 0.5em;
+	background-color: #b2a215;
 	text-decoration: none;
 	color: white;
-	border-radius: 0.5em 
+	border-radius: 0.2em 
+}
+
+nav a:hover {
+	background-color: #cc3865;
+}
+
+blockquote {
+	color: #b2a215;
+	font-size: 1.2rem;
+	font-style: italic;
+	line-height: 1.2;
+	text-align: center;
+}
+
+	cite {
+	color: #b2a215;
+	text-align: right;
+	font-size: 0.7rem;
+}
